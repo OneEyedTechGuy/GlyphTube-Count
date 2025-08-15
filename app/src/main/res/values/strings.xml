@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GlyphTube Count</string>
+    <string name="toy_name_subscriber_count">Subscriber Count</string>
+
+    <string name="instruction_enter_channel">Enter your YouTube Channel URL or @username:</string>
+    <string name="hint_channel_url_or_username">e.g., https://www.youtube.com/@oneeyedtechguy</string>
+    <string name="action_save_channel">Save Channel</string>
+
+    <string name="notif_channel_name">GlyphTube Background</string>
+    <string name="notif_channel_desc">Keeps the GlyphTube Count toy running</string>
+    <string name="notif_title">GlyphTube Count running</string>
+    <string name="notif_text">Updating subscriber count…</string>
+    
+    <string name="glyph_setup_instructions">How to enable on Glyph Matrix:\n\n1) Go to Phone Settings → Glyph Interface → tap "Glyph Toys"\n\n2) Top right click on the Sorting Icon (next to the gear). Add "Subscriber Count" and hit back\n\n3) Click on "Subscriber Count" and see Matrix display your subscriber count!</string>
+    
+    <string name="version_display">v0.0.2</string>
+</resources>

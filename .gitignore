@@ -1,27 +1,83 @@
-# Compiled class file
+# Sensitive files with API keys/passwords
+SubscriberCountToy.kt
+my-new-release-key.jks
+local.properties
+gradle.properties
+
+# macOS files
+.DS_Store
+
+# Android/Gradle build files
+.gradle
+.idea
+.kotlin
+
+# Built application files
+*.apk
+*.ap_
+*.aab
+*.aar
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
 *.class
 
-# Log file
+# Generated files
+bin/
+build/
+.gradle/
+.idea/
+.cxx/ # For NDK/CMake builds
+.externalNativeBuild/ # For NDK/CMake builds
+local.properties # Local configuration for Android SDK location etc.
+.DS_Store # macOS specific file
+captures/ # Android Studio CPU/Memory profiler captures
+.navigation/ # Android Studio Navigation Editor files
+.flutter-plugins # Flutter specific
+.flutter-plugins-dependencies # Flutter specific
+.android/
+.kotlin/ # Kotlin specific build artifacts
+
+# Log files
 *.log
 
-# BlueJ files
-*.ctxt
+# Crashlytics/Firebase specific
+crashlytics-build.properties # Contains API key for Crashlytics/Fabric
+fabric.properties # Contains API key for Fabric
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Keystore files (VERY IMPORTANT - DO NOT COMMIT YOUR RELEASE KEY)
+*.jks
+*.keystore
+*.kdb
+*.p12
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# Google Services JSON (VERY IMPORTANT - CONTAINS API keys/client IDs)
+google-services.json
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Local Android Studio settings
+.idea/workspace.xml
+.idea/libraries/
+.idea/caches/
+.idea/modules.xml # If you have multiple modules, this can sometimes be local
+.idea/codeStyles/
+.idea/gradle.xml # Often contains local paths
 
-# Kotlin Gradle plugin data, see https://kotlinlang.org/docs/whatsnew20.html#new-directory-for-kotlin-data-in-gradle-projects
-.kotlin/
+# External Native Build (CMake/NDK)
+CMakeLists.txt.user # User-specific CMake settings
+
+# Android Studio local configuration
+.idea/runConfigurations
+.idea/tasks.xml
+
+# Gradle files
+*.iml # IntelliJ/Android Studio module files
+.gradle-tooling-api-shared-state/
+
+# Test output
+/app/test-results/
+
+# Any other sensitive files you might create
+# For example, if you have a file with API keys for other services
+# api_keys.txt
