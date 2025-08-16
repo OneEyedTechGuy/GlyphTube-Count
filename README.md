@@ -14,17 +14,12 @@ To Enable it:
 
 If you want to clone this project just a few things to update:
 In app/build.gradle you have to update
-signingConfigs {
-        release {
-            storeFile file('../my-new-release-key.keystore')
-            storePassword = System.getenv("KEYSTORE_PASSWORD")
-            keyAlias 'glyphtube-new-key'
-            keyPassword = System.getenv("KEY_PASSWORD")
-            enableV1Signing true
-            enableV2Signing true
-        }
-    }
 
-Next, app/src/main/java/com/glyphtubecount/SubscriberCountToy.kt.clean.kt rename to SubscriberCountToy.kt
-Then add your own API Key (on line 25) 
+            storeFile file('../my-new-release-key.keystore') </br>
+            storePassword = System.getenv("KEYSTORE_PASSWORD") </br>
+            keyAlias 'glyphtube-new-key' </br>
+            keyPassword = System.getenv("KEY_PASSWORD") </br>
+
+Next, app/src/main/java/com/glyphtubecount/SubscriberCountToy.kt.clean.kt rename to SubscriberCountToy.kt </br>
+Then add your own API Key (on line 25) </br>
 private val YOUTUBE_API_KEY = "YOUR_API_KEY_GOES_HERE"
