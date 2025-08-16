@@ -22,4 +22,5 @@ In app/build.gradle you have to update
 
 Next, app/src/main/java/com/glyphtubecount/SubscriberCountToy.kt.clean.kt rename to SubscriberCountToy.kt </br>
 Then add your own API Key (on line 25) </br>
-private val YOUTUBE_API_KEY = "YOUR_API_KEY_GOES_HERE"
+
+             private val YOUTUBE_API_KEY = "YOUR_API_KEY_GOES_HERE"
